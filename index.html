@@ -37,7 +37,7 @@
         <script>
 
             $.get( "data.json", function( data ) {
-                var wordList = _.shuffle(data);
+                var wordList = _.shuffle(data["listA"]);
                 
                 $.each(wordList, function( index, value ) {
                 $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
