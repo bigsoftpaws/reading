@@ -1,0 +1,1136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json reveal-js-multiplex@1.0.0 No repository field.
+5 warn package.json reveal-js-multiplex@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex',
+7 verbose install   [ 'express', 'grunt-cli', 'mustache', 'socket.io' ] ]
+8 info preinstall reveal-js-multiplex@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping socket.io@~1.3.7 /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex
+11 verbose cache add [ 'grunt-cli@~0.1.13', null ]
+12 verbose cache add name=undefined spec="grunt-cli@~0.1.13" args=["grunt-cli@~0.1.13",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt-cli@~0.1.13',
+13 verbose parsed url   path: 'grunt-cli@~0.1.13',
+13 verbose parsed url   href: 'grunt-cli@~0.1.13' }
+14 verbose cache add name="grunt-cli" spec="~0.1.13" args=["grunt-cli","~0.1.13"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '~0.1.13',
+15 verbose parsed url   path: '~0.1.13',
+15 verbose parsed url   href: '~0.1.13' }
+16 verbose addNamed [ 'grunt-cli', '~0.1.13' ]
+17 verbose addNamed [ null, '>=0.1.13-0 <0.2.0-0' ]
+18 verbose cache add [ 'express@~4.13.3', null ]
+19 verbose cache add name=undefined spec="express@~4.13.3" args=["express@~4.13.3",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'express@~4.13.3',
+20 verbose parsed url   path: 'express@~4.13.3',
+20 verbose parsed url   href: 'express@~4.13.3' }
+21 verbose cache add name="express" spec="~4.13.3" args=["express","~4.13.3"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '~4.13.3',
+22 verbose parsed url   path: '~4.13.3',
+22 verbose parsed url   href: '~4.13.3' }
+23 verbose addNamed [ 'express', '~4.13.3' ]
+24 verbose addNamed [ null, '>=4.13.3-0 <4.14.0-0' ]
+25 silly lockFile a6c878ac-grunt-cli-0-1-13 grunt-cli@~0.1.13
+26 verbose lock grunt-cli@~0.1.13 /home/ubuntu/.npm/a6c878ac-grunt-cli-0-1-13.lock
+27 silly lockFile 90e6d034-express-4-13-3 express@~4.13.3
+28 verbose lock express@~4.13.3 /home/ubuntu/.npm/90e6d034-express-4-13-3.lock
+29 silly addNameRange { name: 'grunt-cli',
+29 silly addNameRange   range: '>=0.1.13-0 <0.2.0-0',
+29 silly addNameRange   hasData: false }
+30 silly addNameRange { name: 'express',
+30 silly addNameRange   range: '>=4.13.3-0 <4.14.0-0',
+30 silly addNameRange   hasData: false }
+31 verbose url raw grunt-cli
+32 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+33 verbose url resolved https://registry.npmjs.org/grunt-cli
+34 info trying registry request attempt 1 at 20:53:12
+35 http GET https://registry.npmjs.org/grunt-cli
+36 verbose url raw express
+37 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+38 verbose url resolved https://registry.npmjs.org/express
+39 info trying registry request attempt 1 at 20:53:12
+40 http GET https://registry.npmjs.org/express
+41 verbose cache add [ 'mustache@~2.2.1', null ]
+42 verbose cache add name=undefined spec="mustache@~2.2.1" args=["mustache@~2.2.1",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'mustache@~2.2.1',
+43 verbose parsed url   path: 'mustache@~2.2.1',
+43 verbose parsed url   href: 'mustache@~2.2.1' }
+44 verbose cache add name="mustache" spec="~2.2.1" args=["mustache","~2.2.1"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '~2.2.1',
+45 verbose parsed url   path: '~2.2.1',
+45 verbose parsed url   href: '~2.2.1' }
+46 verbose addNamed [ 'mustache', '~2.2.1' ]
+47 verbose addNamed [ null, '>=2.2.1-0 <2.3.0-0' ]
+48 silly lockFile cb68bc3f-mustache-2-2-1 mustache@~2.2.1
+49 verbose lock mustache@~2.2.1 /home/ubuntu/.npm/cb68bc3f-mustache-2-2-1.lock
+50 silly addNameRange { name: 'mustache', range: '>=2.2.1-0 <2.3.0-0', hasData: false }
+51 verbose url raw mustache
+52 verbose url resolving [ 'https://registry.npmjs.org/', './mustache' ]
+53 verbose url resolved https://registry.npmjs.org/mustache
+54 info trying registry request attempt 1 at 20:53:12
+55 http GET https://registry.npmjs.org/mustache
+56 http 200 https://registry.npmjs.org/grunt-cli
+57 silly registry.get cb [ 200,
+57 silly registry.get   { server: 'nginx/1.10.1',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'last-modified': 'Fri, 17 Nov 2017 16:17:49 GMT',
+57 silly registry.get     etag: '"5a0f0bad-820f"',
+57 silly registry.get     'cache-control': 'max-age=300',
+57 silly registry.get     'content-length': '33295',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     date: 'Fri, 01 Dec 2017 20:53:11 GMT',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '122',
+57 silly registry.get     connection: 'keep-alive',
+57 silly registry.get     'x-served-by': 'cache-lcy19237-LCY',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '1',
+57 silly registry.get     'x-timer': 'S1512161592.730660,VS0,VE0',
+57 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+58 silly addNameRange number 2 { name: 'grunt-cli',
+58 silly addNameRange   range: '>=0.1.13-0 <0.2.0-0',
+58 silly addNameRange   hasData: true }
+59 silly addNameRange versions [ 'grunt-cli',
+59 silly addNameRange   [ '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.1.2',
+59 silly addNameRange     '0.1.3',
+59 silly addNameRange     '0.1.4',
+59 silly addNameRange     '0.1.5',
+59 silly addNameRange     '0.1.6',
+59 silly addNameRange     '0.1.7',
+59 silly addNameRange     '0.1.8',
+59 silly addNameRange     '0.1.9',
+59 silly addNameRange     '0.1.10',
+59 silly addNameRange     '0.1.11',
+59 silly addNameRange     '0.1.12',
+59 silly addNameRange     '0.1.13',
+59 silly addNameRange     '1.0.0-rc1',
+59 silly addNameRange     '1.0.0',
+59 silly addNameRange     '1.0.1',
+59 silly addNameRange     '1.1.0',
+59 silly addNameRange     '1.2.0' ] ]
+60 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+61 verbose addNamed [ '0.1.13', '0.1.13' ]
+62 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+63 verbose lock grunt-cli@0.1.13 /home/ubuntu/.npm/28997503-grunt-cli-0-1-13.lock
+64 silly lockFile ab76c46e-g-grunt-cli-grunt-cli-0-1-13-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+65 verbose lock https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz /home/ubuntu/.npm/ab76c46e-g-grunt-cli-grunt-cli-0-1-13-tgz.lock
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz',
+66 verbose addRemoteTarball   'e9ebc4047631f5012d922770c39378133cad10f4' ]
+67 info retry fetch attempt 1 at 20:53:12
+68 verbose fetch to= /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz
+69 http GET https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+70 http 200 https://registry.npmjs.org/mustache
+71 silly registry.get cb [ 200,
+71 silly registry.get   { server: 'nginx/1.10.1',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'last-modified': 'Tue, 14 Nov 2017 11:08:04 GMT',
+71 silly registry.get     etag: '"5a0ace94-c3ab"',
+71 silly registry.get     'cache-control': 'max-age=300',
+71 silly registry.get     'content-length': '50091',
+71 silly registry.get     'accept-ranges': 'bytes',
+71 silly registry.get     date: 'Fri, 01 Dec 2017 20:53:11 GMT',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     age: '122',
+71 silly registry.get     connection: 'keep-alive',
+71 silly registry.get     'x-served-by': 'cache-lcy19229-LCY',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '1',
+71 silly registry.get     'x-timer': 'S1512161592.737311,VS0,VE0',
+71 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+72 silly addNameRange number 2 { name: 'mustache', range: '>=2.2.1-0 <2.3.0-0', hasData: true }
+73 silly addNameRange versions [ 'mustache',
+73 silly addNameRange   [ '0.3.1-dev',
+73 silly addNameRange     '0.4.0',
+73 silly addNameRange     '0.5.1-dev',
+73 silly addNameRange     '0.5.2',
+73 silly addNameRange     '0.6.0',
+73 silly addNameRange     '0.7.0',
+73 silly addNameRange     '0.7.1',
+73 silly addNameRange     '0.7.2',
+73 silly addNameRange     '0.7.3',
+73 silly addNameRange     '0.8.0',
+73 silly addNameRange     '0.8.1',
+73 silly addNameRange     '0.8.2',
+73 silly addNameRange     '1.0.0',
+73 silly addNameRange     '1.1.0',
+73 silly addNameRange     '1.2.0',
+73 silly addNameRange     '2.0.0',
+73 silly addNameRange     '2.1.0',
+73 silly addNameRange     '2.1.1',
+73 silly addNameRange     '2.1.2',
+73 silly addNameRange     '2.1.3',
+73 silly addNameRange     '2.2.0',
+73 silly addNameRange     '2.2.1',
+73 silly addNameRange     '2.3.0' ] ]
+74 verbose addNamed [ 'mustache', '2.2.1' ]
+75 verbose addNamed [ '2.2.1', '2.2.1' ]
+76 silly lockFile ba50845c-mustache-2-2-1 mustache@2.2.1
+77 verbose lock mustache@2.2.1 /home/ubuntu/.npm/ba50845c-mustache-2-2-1.lock
+78 silly lockFile d9c39dd4--org-mustache-mustache-2-2-1-tgz https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz
+79 verbose lock https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz /home/ubuntu/.npm/d9c39dd4--org-mustache-mustache-2-2-1-tgz.lock
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz',
+80 verbose addRemoteTarball   '2c40ca21c278f53150682bcf9090e41a3339b876' ]
+81 info retry fetch attempt 1 at 20:53:12
+82 verbose fetch to= /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz
+83 http GET https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz
+84 http 200 https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+85 verbose tar unpack /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz
+86 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+87 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package /home/ubuntu/.npm/49c870a9-2519-0-33083372632972896-package.lock
+88 silly lockFile 3073c410-2519-0-33083372632972896-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz
+89 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz /home/ubuntu/.npm/3073c410-2519-0-33083372632972896-tmp-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm extractEntry .npmignore
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm extractEntry Gruntfile.js
+95 silly gunzTarPerm extractEntry .travis.yml
+96 silly gunzTarPerm extractEntry AUTHORS
+97 silly gunzTarPerm extractEntry LICENSE-MIT
+98 silly gunzTarPerm extractEntry bin/grunt
+99 silly gunzTarPerm extractEntry completion/bash
+100 silly gunzTarPerm extractEntry completion/zsh
+101 silly gunzTarPerm extractEntry lib/cli.js
+102 silly gunzTarPerm extractEntry lib/completion.js
+103 silly gunzTarPerm extractEntry lib/info.js
+104 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+105 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+106 silly lockFile 3073c410-2519-0-33083372632972896-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz
+107 silly lockFile 3073c410-2519-0-33083372632972896-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/tmp.tgz
+108 verbose tar pack [ '/home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz',
+108 verbose tar pack   '/home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package' ]
+109 verbose tarball /home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+110 verbose folder /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+111 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+112 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package /home/ubuntu/.npm/49c870a9-2519-0-33083372632972896-package.lock
+113 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+114 verbose lock tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz /home/ubuntu/.npm/8bac1b6a-npm-grunt-cli-0-1-13-package-tgz.lock
+115 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+116 silly lockFile 49c870a9-2519-0-33083372632972896-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592519-0.33083372632972896/package
+117 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+118 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+119 silly lockFile 590874c7-ntu-npm-grunt-cli-0-1-13-package /home/ubuntu/.npm/grunt-cli/0.1.13/package
+120 verbose lock /home/ubuntu/.npm/grunt-cli/0.1.13/package /home/ubuntu/.npm/590874c7-ntu-npm-grunt-cli-0-1-13-package.lock
+121 silly lockFile 590874c7-ntu-npm-grunt-cli-0-1-13-package /home/ubuntu/.npm/grunt-cli/0.1.13/package
+122 silly lockFile 590874c7-ntu-npm-grunt-cli-0-1-13-package /home/ubuntu/.npm/grunt-cli/0.1.13/package
+123 verbose tar unpack /home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+124 silly lockFile 40cbaa63-ntu-npm-grunt-cli-0-1-13-package tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package
+125 verbose lock tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package /home/ubuntu/.npm/40cbaa63-ntu-npm-grunt-cli-0-1-13-package.lock
+126 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+127 verbose lock tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz /home/ubuntu/.npm/8bac1b6a-npm-grunt-cli-0-1-13-package-tgz.lock
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm extractEntry Gruntfile.js
+133 silly gunzTarPerm extractEntry .travis.yml
+134 silly gunzTarPerm extractEntry AUTHORS
+135 silly gunzTarPerm extractEntry LICENSE-MIT
+136 silly gunzTarPerm extractEntry bin/grunt
+137 silly gunzTarPerm extractEntry completion/bash
+138 silly gunzTarPerm extractEntry completion/zsh
+139 silly gunzTarPerm extractEntry lib/cli.js
+140 silly gunzTarPerm extractEntry lib/completion.js
+141 silly gunzTarPerm extractEntry lib/info.js
+142 silly lockFile 40cbaa63-ntu-npm-grunt-cli-0-1-13-package tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package
+143 silly lockFile 40cbaa63-ntu-npm-grunt-cli-0-1-13-package tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package
+144 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+145 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+146 verbose chmod /home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz 644
+147 verbose chown /home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz [ 1000, 1000 ]
+148 silly lockFile ab76c46e-g-grunt-cli-grunt-cli-0-1-13-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+149 silly lockFile ab76c46e-g-grunt-cli-grunt-cli-0-1-13-tgz https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+150 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+151 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+152 silly lockFile a6c878ac-grunt-cli-0-1-13 grunt-cli@~0.1.13
+153 silly lockFile a6c878ac-grunt-cli-0-1-13 grunt-cli@~0.1.13
+154 http 200 https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz
+155 verbose tar unpack /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz
+156 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+157 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package /home/ubuntu/.npm/cf03c450-2664-0-32004834269173443-package.lock
+158 silly lockFile 495a4e97-2664-0-32004834269173443-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz
+159 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz /home/ubuntu/.npm/495a4e97-2664-0-32004834269173443-tmp-tgz.lock
+160 silly gunzTarPerm modes [ '755', '644' ]
+161 silly gunzTarPerm extractEntry package.json
+162 silly gunzTarPerm extractEntry README.md
+163 silly gunzTarPerm extractEntry LICENSE
+164 silly gunzTarPerm extractEntry mustache.js
+165 silly gunzTarPerm extractEntry mustache.min.js
+166 silly gunzTarPerm extractEntry bin/mustache
+167 silly gunzTarPerm extractEntry CHANGELOG.md
+168 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.post
+169 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.pre
+170 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.post
+171 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.pre
+172 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.post
+173 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.pre
+174 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.post
+175 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.pre
+176 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.post
+177 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.pre
+178 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+179 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+180 silly lockFile 495a4e97-2664-0-32004834269173443-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz
+181 silly lockFile 495a4e97-2664-0-32004834269173443-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/tmp.tgz
+182 verbose tar pack [ '/home/ubuntu/.npm/mustache/2.2.1/package.tgz',
+182 verbose tar pack   '/home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package' ]
+183 verbose tarball /home/ubuntu/.npm/mustache/2.2.1/package.tgz
+184 verbose folder /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+185 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+186 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package /home/ubuntu/.npm/cf03c450-2664-0-32004834269173443-package.lock
+187 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+188 verbose lock tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz /home/ubuntu/.npm/74bb45a2-u-npm-mustache-2-2-1-package-tgz.lock
+189 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+190 silly lockFile cf03c450-2664-0-32004834269173443-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161592664-0.32004834269173443/package
+191 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+192 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+193 silly lockFile 949677fd-buntu-npm-mustache-2-2-1-package /home/ubuntu/.npm/mustache/2.2.1/package
+194 verbose lock /home/ubuntu/.npm/mustache/2.2.1/package /home/ubuntu/.npm/949677fd-buntu-npm-mustache-2-2-1-package.lock
+195 silly lockFile 949677fd-buntu-npm-mustache-2-2-1-package /home/ubuntu/.npm/mustache/2.2.1/package
+196 silly lockFile 949677fd-buntu-npm-mustache-2-2-1-package /home/ubuntu/.npm/mustache/2.2.1/package
+197 verbose tar unpack /home/ubuntu/.npm/mustache/2.2.1/package.tgz
+198 silly lockFile 4a1fe20d-buntu-npm-mustache-2-2-1-package tar:///home/ubuntu/.npm/mustache/2.2.1/package
+199 verbose lock tar:///home/ubuntu/.npm/mustache/2.2.1/package /home/ubuntu/.npm/4a1fe20d-buntu-npm-mustache-2-2-1-package.lock
+200 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+201 verbose lock tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz /home/ubuntu/.npm/74bb45a2-u-npm-mustache-2-2-1-package-tgz.lock
+202 silly gunzTarPerm modes [ '755', '644' ]
+203 silly gunzTarPerm extractEntry package.json
+204 silly gunzTarPerm extractEntry README.md
+205 silly gunzTarPerm extractEntry LICENSE
+206 silly gunzTarPerm extractEntry mustache.js
+207 silly gunzTarPerm extractEntry mustache.min.js
+208 silly gunzTarPerm extractEntry bin/mustache
+209 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.post
+210 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.pre
+211 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.post
+212 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.pre
+213 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.post
+214 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.pre
+215 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.post
+216 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.pre
+217 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.post
+218 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.pre
+219 silly lockFile 4a1fe20d-buntu-npm-mustache-2-2-1-package tar:///home/ubuntu/.npm/mustache/2.2.1/package
+220 silly lockFile 4a1fe20d-buntu-npm-mustache-2-2-1-package tar:///home/ubuntu/.npm/mustache/2.2.1/package
+221 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+222 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+223 verbose chmod /home/ubuntu/.npm/mustache/2.2.1/package.tgz 644
+224 verbose chown /home/ubuntu/.npm/mustache/2.2.1/package.tgz [ 1000, 1000 ]
+225 silly lockFile d9c39dd4--org-mustache-mustache-2-2-1-tgz https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz
+226 silly lockFile d9c39dd4--org-mustache-mustache-2-2-1-tgz https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz
+227 silly lockFile ba50845c-mustache-2-2-1 mustache@2.2.1
+228 silly lockFile ba50845c-mustache-2-2-1 mustache@2.2.1
+229 silly lockFile cb68bc3f-mustache-2-2-1 mustache@~2.2.1
+230 silly lockFile cb68bc3f-mustache-2-2-1 mustache@~2.2.1
+231 http 200 https://registry.npmjs.org/express
+232 silly registry.get cb [ 200,
+232 silly registry.get   { server: 'nginx/1.10.1',
+232 silly registry.get     'content-type': 'application/json',
+232 silly registry.get     'last-modified': 'Fri, 01 Dec 2017 13:25:09 GMT',
+232 silly registry.get     etag: '"5a215835-9376b"',
+232 silly registry.get     'cache-control': 'max-age=300',
+232 silly registry.get     'content-length': '604011',
+232 silly registry.get     'accept-ranges': 'bytes',
+232 silly registry.get     date: 'Fri, 01 Dec 2017 20:53:11 GMT',
+232 silly registry.get     via: '1.1 varnish',
+232 silly registry.get     age: '122',
+232 silly registry.get     connection: 'keep-alive',
+232 silly registry.get     'x-served-by': 'cache-lcy19247-LCY',
+232 silly registry.get     'x-cache': 'HIT',
+232 silly registry.get     'x-cache-hits': '1',
+232 silly registry.get     'x-timer': 'S1512161592.733461,VS0,VE2',
+232 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+233 silly addNameRange number 2 { name: 'express', range: '>=4.13.3-0 <4.14.0-0', hasData: true }
+234 silly addNameRange versions [ 'express',
+234 silly addNameRange   [ '0.14.0',
+234 silly addNameRange     '0.14.1',
+234 silly addNameRange     '1.0.0',
+234 silly addNameRange     '1.0.1',
+234 silly addNameRange     '1.0.2',
+234 silly addNameRange     '1.0.3',
+234 silly addNameRange     '1.0.4',
+234 silly addNameRange     '1.0.5',
+234 silly addNameRange     '1.0.6',
+234 silly addNameRange     '1.0.7',
+234 silly addNameRange     '1.0.8',
+234 silly addNameRange     '2.0.0',
+234 silly addNameRange     '2.1.0',
+234 silly addNameRange     '2.1.1',
+234 silly addNameRange     '2.2.0',
+234 silly addNameRange     '2.2.1',
+234 silly addNameRange     '2.2.2',
+234 silly addNameRange     '2.3.0',
+234 silly addNameRange     '2.3.1',
+234 silly addNameRange     '2.3.2',
+234 silly addNameRange     '2.3.3',
+234 silly addNameRange     '2.3.4',
+234 silly addNameRange     '2.3.5',
+234 silly addNameRange     '2.3.6',
+234 silly addNameRange     '2.3.7',
+234 silly addNameRange     '2.3.8',
+234 silly addNameRange     '2.3.9',
+234 silly addNameRange     '2.3.10',
+234 silly addNameRange     '2.3.11',
+234 silly addNameRange     '2.3.12',
+234 silly addNameRange     '2.4.0',
+234 silly addNameRange     '2.4.1',
+234 silly addNameRange     '2.4.2',
+234 silly addNameRange     '2.4.3',
+234 silly addNameRange     '2.4.4',
+234 silly addNameRange     '2.4.5',
+234 silly addNameRange     '2.4.6',
+234 silly addNameRange     '2.4.7',
+234 silly addNameRange     '2.5.0',
+234 silly addNameRange     '2.5.1',
+234 silly addNameRange     '2.5.2',
+234 silly addNameRange     '2.5.3',
+234 silly addNameRange     '2.5.4',
+234 silly addNameRange     '2.5.5',
+234 silly addNameRange     '2.5.6',
+234 silly addNameRange     '2.5.7',
+234 silly addNameRange     '2.5.8',
+234 silly addNameRange     '2.5.9',
+234 silly addNameRange     '2.5.10',
+234 silly addNameRange     '2.5.11',
+234 silly addNameRange     '3.0.0',
+234 silly addNameRange     '3.0.1',
+234 silly addNameRange     '3.0.2',
+234 silly addNameRange     '3.0.3',
+234 silly addNameRange     '3.0.4',
+234 silly addNameRange     '3.0.5',
+234 silly addNameRange     '3.0.6',
+234 silly addNameRange     '3.1.0',
+234 silly addNameRange     '3.1.1',
+234 silly addNameRange     '3.1.2',
+234 silly addNameRange     '3.2.0',
+234 silly addNameRange     '3.2.1',
+234 silly addNameRange     '3.2.2',
+234 silly addNameRange     '3.2.3',
+234 silly addNameRange     '3.2.4',
+234 silly addNameRange     '3.2.5',
+234 silly addNameRange     '3.2.6',
+234 silly addNameRange     '3.3.0',
+234 silly addNameRange     '3.3.1',
+234 silly addNameRange     '3.3.2',
+234 silly addNameRange     '3.3.3',
+234 silly addNameRange     '3.3.4',
+234 silly addNameRange     '3.3.5',
+234 silly addNameRange     '3.3.6',
+234 silly addNameRange     '1.0.0-beta',
+234 silly addNameRange     '1.0.0-beta2',
+234 silly addNameRange     '1.0.0-rc',
+234 silly addNameRange     '1.0.0-rc2',
+234 silly addNameRange     '1.0.0-rc3',
+234 silly addNameRange     '1.0.0-rc4',
+234 silly addNameRange     '2.0.0-beta',
+234 silly addNameRange     '2.0.0-beta2',
+234 silly addNameRange     '2.0.0-beta3',
+234 silly addNameRange     '2.0.0-rc',
+234 silly addNameRange     '2.0.0-rc2',
+234 silly addNameRange     '2.0.0-rc3',
+234 silly addNameRange     '3.0.0-alpha1',
+234 silly addNameRange     '3.0.0-alpha2',
+234 silly addNameRange     '3.0.0-alpha3',
+234 silly addNameRange     '3.0.0-alpha4',
+234 silly addNameRange     '3.0.0-alpha5',
+234 silly addNameRange     '3.0.0-beta1',
+234 silly addNameRange     '3.0.0-beta2',
+234 silly addNameRange     '3.0.0-beta3',
+234 silly addNameRange     '3.0.0-beta4',
+234 silly addNameRange     '3.0.0-beta6',
+234 silly addNameRange     '3.0.0-beta7',
+234 silly addNameRange     '3.0.0-rc1',
+234 silly addNameRange     '3.0.0-rc2',
+234 silly addNameRange     '3.0.0-rc3',
+234 silly addNameRange     '3.0.0-rc4',
+234 silly addNameRange     '3.0.0-rc5',
+234 silly addNameRange     '3.3.7',
+234 silly addNameRange     '3.3.8',
+234 silly addNameRange     '3.4.0',
+234 silly addNameRange     '3.4.1',
+234 silly addNameRange     '3.4.2',
+234 silly addNameRange     '3.4.3',
+234 silly addNameRange     '3.4.4',
+234 silly addNameRange     '3.4.5',
+234 silly addNameRange     '3.4.6',
+234 silly addNameRange     '3.4.7',
+234 silly addNameRange     '3.4.8',
+234 silly addNameRange     '4.0.0-rc1',
+234 silly addNameRange     '4.0.0-rc2',
+234 silly addNameRange     '3.5.0',
+234 silly addNameRange     '4.0.0-rc3',
+234 silly addNameRange     '4.0.0-rc4',
+234 silly addNameRange     '3.5.1',
+234 silly addNameRange     '4.0.0',
+234 silly addNameRange     '3.5.2',
+234 silly addNameRange     '4.1.0',
+234 silly addNameRange     '4.1.1',
+234 silly addNameRange     '3.5.3',
+234 silly addNameRange     '4.1.2',
+234 silly addNameRange     '3.6.0',
+234 silly addNameRange     '4.2.0',
+234 silly addNameRange     '3.7.0',
+234 silly addNameRange     '3.8.0',
+234 silly addNameRange     '4.3.0',
+234 silly addNameRange     '4.3.1',
+234 silly addNameRange     '3.8.1',
+234 silly addNameRange     '4.3.2',
+234 silly addNameRange     '3.9.0',
+234 silly addNameRange     '4.4.0',
+234 silly addNameRange     '4.4.1',
+234 silly addNameRange     '3.10.0',
+234 silly addNameRange     '3.10.1',
+234 silly addNameRange     '3.10.2',
+234 silly addNameRange     '3.10.3',
+234 silly addNameRange     '3.10.4',
+234 silly addNameRange     '4.4.2',
+234 silly addNameRange     '3.10.5',
+234 silly addNameRange     '4.4.3',
+234 silly addNameRange     '3.11.0',
+234 silly addNameRange     '4.4.4',
+234 silly addNameRange     '3.12.0',
+234 silly addNameRange     '3.12.1',
+234 silly addNameRange     '4.4.5',
+234 silly addNameRange     '3.13.0',
+234 silly addNameRange     '4.5.0',
+234 silly addNameRange     '4.5.1',
+234 silly addNameRange     '3.14.0',
+234 silly addNameRange     '4.6.0',
+234 silly addNameRange     '4.6.1',
+234 silly addNameRange     '3.15.0',
+234 silly addNameRange     '4.7.0',
+234 silly addNameRange     '3.15.1',
+234 silly addNameRange     '4.7.1',
+234 silly addNameRange     '3.15.2',
+234 silly addNameRange     '4.7.2',
+234 silly addNameRange     '4.7.3',
+234 silly addNameRange     '3.15.3',
+234 silly addNameRange     '4.7.4',
+234 silly addNameRange     '3.16.0',
+234 silly addNameRange     '4.8.0',
+234 silly addNameRange     '3.16.1',
+234 silly addNameRange     '4.8.1',
+234 silly addNameRange     '3.16.2',
+234 silly addNameRange     '4.8.2',
+234 silly addNameRange     '3.16.3',
+234 silly addNameRange     '3.16.4',
+234 silly addNameRange     '4.8.3',
+234 silly addNameRange     '3.16.5',
+234 silly addNameRange     '3.16.6',
+234 silly addNameRange     '4.8.4',
+234 silly addNameRange     '3.16.7',
+234 silly addNameRange     '4.8.5',
+234 silly addNameRange     '3.16.8',
+234 silly addNameRange     '4.8.6',
+234 silly addNameRange     '3.16.9',
+234 silly addNameRange     '4.8.7',
+234 silly addNameRange     '3.16.10',
+234 silly addNameRange     '4.8.8',
+234 silly addNameRange     '3.17.0',
+234 silly addNameRange     '3.17.1',
+234 silly addNameRange     '4.9.0',
+234 silly addNameRange     '3.17.2',
+234 silly addNameRange     '4.9.1',
+234 silly addNameRange     '4.9.2',
+234 silly addNameRange     '3.17.3',
+234 silly addNameRange     '4.9.3',
+234 silly addNameRange     '3.17.4',
+234 silly addNameRange     '4.9.4',
+234 silly addNameRange     '3.17.5',
+234 silly addNameRange     '4.9.5',
+234 silly addNameRange     '3.17.6',
+234 silly addNameRange     '3.17.7',
+234 silly addNameRange     '4.9.6',
+234 silly addNameRange     '4.9.7',
+234 silly addNameRange     '3.17.8',
+234 silly addNameRange     '4.9.8',
+234 silly addNameRange     '3.18.0',
+234 silly addNameRange     '3.18.1',
+234 silly addNameRange     '4.10.0',
+234 silly addNameRange     '3.18.2',
+234 silly addNameRange     '4.10.1',
+234 silly addNameRange     '5.0.0-alpha.1',
+234 silly addNameRange     '3.18.3',
+234 silly addNameRange     '4.10.2',
+234 silly addNameRange     '3.18.4',
+234 silly addNameRange     '4.10.3',
+234 silly addNameRange     '4.10.4',
+234 silly addNameRange     '4.10.5',
+234 silly addNameRange     '3.18.5',
+234 silly addNameRange     '3.18.6',
+234 silly addNameRange     '4.10.6',
+234 silly addNameRange     '4.10.7',
+234 silly addNameRange     '3.19.0',
+234 silly addNameRange     '4.10.8',
+234 silly addNameRange     '4.11.0',
+234 silly addNameRange     '3.19.1',
+234 silly addNameRange     '4.11.1',
+234 silly addNameRange     '3.19.2',
+234 silly addNameRange     '4.11.2',
+234 silly addNameRange     '3.20.0',
+234 silly addNameRange     '4.12.0',
+234 silly addNameRange     '3.20.1',
+234 silly addNameRange     '4.12.1',
+234 silly addNameRange     '4.12.2',
+234 silly addNameRange     '3.20.2',
+234 silly addNameRange     '4.12.3',
+234 silly addNameRange     '3.20.3',
+234 silly addNameRange     '4.12.4',
+234 silly addNameRange     '3.21.0',
+234 silly addNameRange     '4.13.0',
+234 silly addNameRange     '3.21.1',
+234 silly addNameRange     '4.13.1',
+234 silly addNameRange     '5.0.0-alpha.2',
+234 silly addNameRange     '3.21.2',
+234 silly addNameRange     '4.13.2',
+234 silly addNameRange     '4.13.3',
+234 silly addNameRange     '4.13.4',
+234 silly addNameRange     '4.14.0',
+234 silly addNameRange     '4.14.1',
+234 silly addNameRange     '5.0.0-alpha.3',
+234 silly addNameRange     '4.15.0',
+234 silly addNameRange     '5.0.0-alpha.4',
+234 silly addNameRange     '4.15.1',
+234 silly addNameRange     '4.15.2',
+234 silly addNameRange     '5.0.0-alpha.5',
+234 silly addNameRange     '4.15.3',
+234 silly addNameRange     '4.15.4',
+234 silly addNameRange     '4.15.5',
+234 silly addNameRange     '5.0.0-alpha.6',
+234 silly addNameRange     '4.16.0',
+234 silly addNameRange     '4.16.1',
+234 silly addNameRange     '4.16.2' ] ]
+235 verbose addNamed [ 'express', '4.13.4' ]
+236 verbose addNamed [ '4.13.4', '4.13.4' ]
+237 silly lockFile 23607823-express-4-13-4 express@4.13.4
+238 verbose lock express@4.13.4 /home/ubuntu/.npm/23607823-express-4-13-4.lock
+239 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+240 verbose lock https://registry.npmjs.org/express/-/express-4.13.4.tgz /home/ubuntu/.npm/65e0249d-s-org-express-express-4-13-4-tgz.lock
+241 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.13.4.tgz',
+241 verbose addRemoteTarball   '3c0b76f3c77590c8345739061ec0bd3ba067ec24' ]
+242 info retry fetch attempt 1 at 20:53:13
+243 verbose fetch to= /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz
+244 http GET https://registry.npmjs.org/express/-/express-4.13.4.tgz
+245 http 200 https://registry.npmjs.org/express/-/express-4.13.4.tgz
+246 verbose tar unpack /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz
+247 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+248 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package /home/ubuntu/.npm/e45b7e72-93213-0-3811524440534413-package.lock
+249 silly lockFile b0ec7728-93213-0-3811524440534413-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz
+250 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz /home/ubuntu/.npm/b0ec7728-93213-0-3811524440534413-tmp-tgz.lock
+251 silly gunzTarPerm modes [ '755', '644' ]
+252 silly gunzTarPerm extractEntry package.json
+253 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+254 silly gunzTarPerm extractEntry LICENSE
+255 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+256 silly gunzTarPerm extractEntry index.js
+257 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry History.md
+259 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+260 silly gunzTarPerm extractEntry Readme.md
+261 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/application.js
+263 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry lib/express.js
+265 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/request.js
+267 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/response.js
+269 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry lib/utils.js
+271 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry lib/view.js
+273 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry lib/middleware/init.js
+275 silly gunzTarPerm modified mode [ 'lib/middleware/init.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry lib/middleware/query.js
+277 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry lib/router/index.js
+279 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry lib/router/layer.js
+281 silly gunzTarPerm modified mode [ 'lib/router/layer.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry lib/router/route.js
+283 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+284 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+285 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+286 silly lockFile b0ec7728-93213-0-3811524440534413-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz
+287 silly lockFile b0ec7728-93213-0-3811524440534413-tmp-tgz tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/tmp.tgz
+288 verbose tar pack [ '/home/ubuntu/.npm/express/4.13.4/package.tgz',
+288 verbose tar pack   '/home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package' ]
+289 verbose tarball /home/ubuntu/.npm/express/4.13.4/package.tgz
+290 verbose folder /home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+291 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+292 verbose lock tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package /home/ubuntu/.npm/e45b7e72-93213-0-3811524440534413-package.lock
+293 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+294 verbose lock tar:///home/ubuntu/.npm/express/4.13.4/package.tgz /home/ubuntu/.npm/85d77a4a-u-npm-express-4-13-4-package-tgz.lock
+295 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+296 silly lockFile e45b7e72-93213-0-3811524440534413-package tar:///home/ubuntu/tmp/npm-18180-VcyNhY9x/1512161593213-0.3811524440534413/package
+297 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+298 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+299 silly lockFile 4584a2bb-buntu-npm-express-4-13-4-package /home/ubuntu/.npm/express/4.13.4/package
+300 verbose lock /home/ubuntu/.npm/express/4.13.4/package /home/ubuntu/.npm/4584a2bb-buntu-npm-express-4-13-4-package.lock
+301 silly lockFile 4584a2bb-buntu-npm-express-4-13-4-package /home/ubuntu/.npm/express/4.13.4/package
+302 silly lockFile 4584a2bb-buntu-npm-express-4-13-4-package /home/ubuntu/.npm/express/4.13.4/package
+303 verbose tar unpack /home/ubuntu/.npm/express/4.13.4/package.tgz
+304 silly lockFile 596986af-buntu-npm-express-4-13-4-package tar:///home/ubuntu/.npm/express/4.13.4/package
+305 verbose lock tar:///home/ubuntu/.npm/express/4.13.4/package /home/ubuntu/.npm/596986af-buntu-npm-express-4-13-4-package.lock
+306 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+307 verbose lock tar:///home/ubuntu/.npm/express/4.13.4/package.tgz /home/ubuntu/.npm/85d77a4a-u-npm-express-4-13-4-package-tgz.lock
+308 silly gunzTarPerm modes [ '755', '644' ]
+309 silly gunzTarPerm extractEntry package.json
+310 silly gunzTarPerm extractEntry LICENSE
+311 silly gunzTarPerm extractEntry index.js
+312 silly gunzTarPerm extractEntry History.md
+313 silly gunzTarPerm extractEntry Readme.md
+314 silly gunzTarPerm extractEntry lib/application.js
+315 silly gunzTarPerm extractEntry lib/express.js
+316 silly gunzTarPerm extractEntry lib/request.js
+317 silly gunzTarPerm extractEntry lib/response.js
+318 silly gunzTarPerm extractEntry lib/utils.js
+319 silly gunzTarPerm extractEntry lib/view.js
+320 silly gunzTarPerm extractEntry lib/middleware/init.js
+321 silly gunzTarPerm extractEntry lib/middleware/query.js
+322 silly gunzTarPerm extractEntry lib/router/index.js
+323 silly gunzTarPerm extractEntry lib/router/layer.js
+324 silly gunzTarPerm extractEntry lib/router/route.js
+325 silly lockFile 596986af-buntu-npm-express-4-13-4-package tar:///home/ubuntu/.npm/express/4.13.4/package
+326 silly lockFile 596986af-buntu-npm-express-4-13-4-package tar:///home/ubuntu/.npm/express/4.13.4/package
+327 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+328 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+329 verbose chmod /home/ubuntu/.npm/express/4.13.4/package.tgz 644
+330 verbose chown /home/ubuntu/.npm/express/4.13.4/package.tgz [ 1000, 1000 ]
+331 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+332 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+333 silly lockFile 23607823-express-4-13-4 express@4.13.4
+334 silly lockFile 23607823-express-4-13-4 express@4.13.4
+335 silly lockFile 90e6d034-express-4-13-3 express@~4.13.3
+336 silly lockFile 90e6d034-express-4-13-3 express@~4.13.3
+337 silly resolved [ { name: 'grunt-cli',
+337 silly resolved     description: 'The grunt command line interface.',
+337 silly resolved     version: '0.1.13',
+337 silly resolved     author: { name: 'Grunt Team' },
+337 silly resolved     homepage: 'http://gruntjs.com/',
+337 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+337 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+337 silly resolved     licenses: [ [Object] ],
+337 silly resolved     bin: { grunt: 'bin/grunt' },
+337 silly resolved     engines: { node: '>= 0.8.0' },
+337 silly resolved     scripts: { test: 'node bin/grunt test' },
+337 silly resolved     preferGlobal: true,
+337 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+337 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+337 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+337 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The Grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of Grunt you have installed locally to your project, irrespective of its version.  Starting with Grunt v0.4, you should never install Grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable tab auto-completion for Grunt, add one of the following lines to your `~/.bashrc` or `~/.zshrc` file.\n\n```bash\n# Bash, ~/.bashrc\neval "$(grunt --completion=bash)"\n```\n\n```bash\n# Zsh, ~/.zshrc\neval "$(grunt --completion=zsh)"\n```\n\n## Installing grunt-cli locally\nIf you prefer the idiomatic Node.js method to get started with a project (`npm install && npm test`) then install grunt-cli locally with `npm install grunt-cli --save-dev`. Then add a script to your `package.json` to run the associated grunt command: `"scripts": { "test": "grunt test" } `. Now `npm test` will use the locally installed `./node_modules/.bin/grunt` executable to run your Grunt commands.\n\nTo read more about npm scripts, please visit the npm docs: [https://npmjs.org/doc/misc/npm-scripts.html](https://npmjs.org/doc/misc/npm-scripts.html).\n',
+337 silly resolved     readmeFilename: 'README.md',
+337 silly resolved     _id: 'grunt-cli@0.1.13',
+337 silly resolved     dist: { shasum: '1ffcd7a04189110edf9da89ef7f0c12f7c89da98' },
+337 silly resolved     _from: 'grunt-cli@~0.1.13',
+337 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz' },
+337 silly resolved   { name: 'mustache',
+337 silly resolved     version: '2.2.1',
+337 silly resolved     description: 'Logic-less {{mustache}} templates with JavaScript',
+337 silly resolved     author:
+337 silly resolved      { name: 'mustache.js Authors',
+337 silly resolved        email: 'http://github.com/janl/mustache.js' },
+337 silly resolved     homepage: 'https://github.com/janl/mustache.js',
+337 silly resolved     repository: { type: 'git', url: 'https://github.com/janl/mustache.js.git' },
+337 silly resolved     keywords: [ 'mustache', 'template', 'templates', 'ejs' ],
+337 silly resolved     main: './mustache.js',
+337 silly resolved     bin: { mustache: './bin/mustache' },
+337 silly resolved     files: [ 'mustache.js', 'mustache.min.js', 'bin', 'wrappers', 'LICENSE' ],
+337 silly resolved     volo: { url: 'https://raw.github.com/janl/mustache.js/{version}/mustache.js' },
+337 silly resolved     engines: { npm: '>=1.4.0' },
+337 silly resolved     scripts:
+337 silly resolved      { pretest: 'eslint mustache.js bin/mustache',
+337 silly resolved        test: 'mocha --reporter spec test/*-test.js',
+337 silly resolved        'test-render': 'mocha  --reporter spec test/render-test',
+337 silly resolved        'pre-test-browser': 'node test/create-browser-suite.js',
+337 silly resolved        'test-browser': 'npm run pre-test-browser && zuul -- test/context-test.js test/parse-test.js test/scanner-test.js test/render-test-browser.js',
+337 silly resolved        'test-browser-local': 'npm run pre-test-browser && zuul --local 8080 -- test/context-test.js test/scanner-test.js test/parse-test.js test/render-test-browser.js' },
+337 silly resolved     devDependencies:
+337 silly resolved      { chai: '^3.4.0',
+337 silly resolved        eslint: '^1.7.3',
+337 silly resolved        mocha: '^2.1.0',
+337 silly resolved        zuul: '^3.7.0' },
+337 silly resolved     spm: { main: 'mustache.js', ignore: [Object] },
+337 silly resolved     license: 'MIT',
+337 silly resolved     readme: '# mustache.js - Logic-less {{mustache}} templates with JavaScript\n\n> What could be more logical awesome than no logic at all?\n\n[![Build Status](https://travis-ci.org/janl/mustache.js.svg?branch=master)](https://travis-ci.org/janl/mustache.js) [![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/janl/mustache.js)\n\n[mustache.js](http://github.com/janl/mustache.js) is an implementation of the [mustache](http://mustache.github.com/) template system in JavaScript.\n\n[Mustache](http://mustache.github.com/) is a logic-less template syntax. It can be used for HTML, config files, source code - anything. It works by expanding tags in a template using values provided in a hash or object.\n\nWe call it "logic-less" because there are no if statements, else clauses, or for loops. Instead there are only tags. Some tags are replaced with a value, some nothing, and others a series of values.\n\nFor a language-agnostic overview of mustache\'s template syntax, see the `mustache(5)` [manpage](http://mustache.github.com/mustache.5.html).\n\n## Where to use mustache.js?\n\nYou can use mustache.js to render mustache templates anywhere you can use JavaScript. This includes web browsers, server-side environments such as [node](http://nodejs.org/), and [CouchDB](http://couchdb.apache.org/) views.\n\nmustache.js ships with support for both the [CommonJS](http://www.commonjs.org/) module API and the [Asynchronous Module Definition](https://github.com/amdjs/amdjs-api/wiki/AMD) API, or AMD.\n\nAnd this will be your templates after you use Mustache:\n\n![\'stache](https://cloud.githubusercontent.com/assets/288977/8779228/a3cf700e-2f02-11e5-869a-300312fb7a00.gif)\n\n## Install\n\nYou can get Mustache via npm.\n\n```bash\n$ npm install mustache --save\n```\nor install with bower:\n\n```bash\n$ bower install --save mustache\n```\n\n## Command line tool\n\nmustache.js is shipped with a node based command line tool. It might be installed as a global tool on your computer to render a mustache template of some kind\n\n```bash\n$ npm install -g mustache\n\n$ mustache dataView.json myTemplate.mustache > output.html\n```\n\nalso supports stdin.\n\n```bash\n$ cat dataView.json | mustache - myTemplate.mustache > output.html\n```\n\nor as a package.json `devDependency` in a build process maybe?\n\n```bash\n$ npm install mustache --save-dev\n```\n\n```json\n{\n  "scripts": {\n    "build": "mustache dataView.json myTemplate.mustache > public/output.html"\n  }\n}\n```\n```bash\n$ npm run build\n```\n\nThe command line tool is basically a wrapper around `Mustache.render` so you get all the features.\n\nIf your templates use partials you should pass paths to partials using `-p` flag:\n\n```bash\n$ mustache -p path/to/partial1.mustache -p path/to/partial2.mustache dataView.json myTemplate.mustache\n```\n\n## Who uses mustache.js?\n\nAn updated list of mustache.js users is kept [on the Github wiki](http://wiki.github.com/janl/mustache.js/beard-competition). Add yourself or your company if you use mustache.js!\n\n## Contributing\n\nmustache.js is a mature project, but it continues to actively invite maintainers. You can help out a high-profile project that is used in a lot of places on the web. There is [plenty](https://github.com/janl/mustache.js/issues) of [work](https://github.com/janl/mustache.js/pulls) to do. No big commitment required, if all you do is review a single [Pull Request](https://github.com/janl/mustache.js/pulls), you are a maintainer. And a hero.\n\n### Your First Contribution\n\n- review a [Pull Request](https://github.com/janl/mustache.js/pulls)\n- fix an [Issue](https://github.com/janl/mustache.js/issues)\n- update the [documentation](https://github.com/janl/mustache.js#usage)\n- make a website\n- write a tutorial\n\n* * *\n\n## Usage\n\nBelow is a quick example how to use mustache.js:\n\n```js\nvar view = {\n  title: "Joe",\n  calc: function () {\n    return 2 + 4;\n  }\n};\n\nvar output = Mustache.render("{{title}} spends {{calc}}", view);\n```\n\nIn this example, the `Mustache.render` function takes two parameters: 1) the [mustache](http://mustache.github.com/) template and 2) a `view` object that contains the data and code needed to render the template.\n\n## Templates\n\nA [mustache](http://mustache.github.com/) template is a string that contains any number of mustache tags. Tags are indicated by the double mustaches that surround them. `{{person}}` is a tag, as is `{{#person}}`. In both examples we refer to `person` as the tag\'s key. There are several types of tags available in mustache.js, described below.\n\nThere are several techniques that can be used to load templates and hand them to mustache.js, here are two of them:\n\n#### Include Templates\n\nIf you need a template for a dynamic part in a static website, you can consider including the template in the static HTML file to avoid loading templates separately. Here\'s a small example using `jQuery`:\n\n```html\n<html>\n<body onload="loadUser">\n<div id="target">Loading...</div>\n<script id="template" type="x-tmpl-mustache">\nHello {{ name }}!\n</script>\n</body>\n</html>\n```\n\n```js\nfunction loadUser() {\n  var template = $(\'#template\').html();\n  Mustache.parse(template);   // optional, speeds up future uses\n  var rendered = Mustache.render(template, {name: "Luke"});\n  $(\'#target\').html(rendered);\n}\n```\n\n#### Load External Templates\n\nIf your templates reside in individual files, you can load them asynchronously and render them when they arrive. Another example using `jQuery`:\n\n```js\nfunction loadUser() {\n  $.get(\'template.mst\', function(template) {\n    var rendered = Mustache.render(template, {name: "Luke"});\n    $(\'#target\').html(rendered);\n  });\n}\n```\n\n### Variables\n\nThe most basic tag type is a simple variable. A `{{name}}` tag renders the value of the `name` key in the current context. If there is no such key, nothing is rendered.\n\nAll variables are HTML-escaped by default. If you want to render unescaped HTML, use the triple mustache: `{{{name}}}`. You can also use `&` to unescape a variable.\n\nIf you want `{{name}}` _not_ to be interpreted as a mustache tag, but rather to appear exactly as `{{name}}` in the output, you must change and then restore the default delimiter. See the ["Set Delimiter"](https://github.com/janl/mustache.js#set-delimiter) section for more information about custom delimiters.\n\nView:\n\n```json\n{\n  "name": "Chris",\n  "company": "<b>GitHub</b>"\n}\n```\n\nTemplate:\n\n```\n* {{name}}\n* {{age}}\n* {{company}}\n* {{{company}}}\n* {{&company}}\n{{=<% %>=}}\n* {{company}}\n<%={{ }}=%>\n```\n\nOutput:\n\n```html\n* Chris\n*\n* &lt;b&gt;GitHub&lt;/b&gt;\n* <b>GitHub</b>\n* <b>GitHub</b>\n* {{company}}\n```\n\nJavaScript\'s dot notation may be used to access keys that are properties of objects in a view.\n\nView:\n\n```json\n{\n  "name": {\n    "first": "Michael",\n    "last": "Jackson"\n  },\n  "age": "RIP"\n}\n```\n\nTemplate:\n\n```html\n* {{name.first}} {{name.last}}\n* {{age}}\n```\n\nOutput:\n\n```html\n* Michael Jackson\n* RIP\n```\n\n### Sections\n\nSections render blocks of text one or more times, depending on the value of the key in the current context.\n\nA section begins with a pound and ends with a slash. That is, `{{#person}}` begins a `person` section, while `{{/person}}` ends it. The text between the two tags is referred to as that section\'s "block".\n\nThe behavior of the section is determined by the value of the key.\n\n#### False Values or Empty Lists\n\nIf the `person` key does not exist, or exists and has a value of `null`, `undefined`, `false`, `0`, or `NaN`, or is an empty string or an empty list, the block will not be rendered.\n\nView:\n\n```json\n{\n  "person": false\n}\n```\n\nTemplate:\n\n```html\nShown.\n{{#person}}\nNever shown!\n{{/person}}\n```\n\nOutput:\n\n```html\nShown.\n```\n\n#### Non-Empty Lists\n\nIf the `person` key exists and is not `null`, `undefined`, or `false`, and is not an empty list the block will be rendered one or more times.\n\nWhen the value is a list, the block is rendered once for each item in the list. The context of the block is set to the current item in the list for each iteration. In this way we can loop over collections.\n\nView:\n\n```json\n{\n  "stooges": [\n    { "name": "Moe" },\n    { "name": "Larry" },\n    { "name": "Curly" }\n  ]\n}\n```\n\nTemplate:\n\n```html\n{{#stooges}}\n<b>{{name}}</b>\n{{/stooges}}\n```\n\nOutput:\n\n```html\n<b>Moe</b>\n<b>Larry</b>\n<b>Curly</b>\n```\n\nWhen looping over an array of strings, a `.` can be used to refer to the current item in the list.\n\nView:\n\n```json\n{\n  "musketeers": ["Athos", "Aramis", "Porthos", "D\'Artagnan"]\n}\n```\n\nTemplate:\n\n```html\n{{#musketeers}}\n* {{.}}\n{{/musketeers}}\n```\n\nOutput:\n\n```html\n* Athos\n* Aramis\n* Porthos\n* D\'Artagnan\n```\n\nIf the value of a section variable is a function, it will be called in the context of the current item in the list on each iteration.\n\nView:\n\n```js\n{\n  "beatles": [\n    { "firstName": "John", "lastName": "Lennon" },\n    { "firstName": "Paul", "lastName": "McCartney" },\n    { "firstName": "George", "lastName": "Harrison" },\n    { "firstName": "Ringo", "lastName": "Starr" }\n  ],\n  "name": function () {\n    return this.firstName + " " + this.lastName;\n  }\n}\n```\n\nTemplate:\n\n```html\n{{#beatles}}\n* {{name}}\n{{/beatles}}\n```\n\nOutput:\n\n```html\n* John Lennon\n* Paul McCartney\n* George Harrison\n* Ringo Starr\n```\n\n#### Functions\n\nIf the value of a section key is a function, it is called with the section\'s literal block of text, un-rendered, as its first argument. The second argument is a special rendering function that uses the current view as its view argument. It is called in the context of the current view object.\n\nView:\n\n```js\n{\n  "name": "Tater",\n  "bold": function () {\n    return function (text, render) {\n      return "<b>" + render(text) + "</b>";\n    }\n  }\n}\n```\n\nTemplate:\n\n```html\n{{#bold}}Hi {{name}}.{{/bold}}\n```\n\nOutput:\n\n```html\n<b>Hi Tater.</b>\n```\n\n### Inverted Sections\n\nAn inverted section opens with `{{^section}}` instead of `{{#section}}`. The block of an inverted section is rendered only if the value of that section\'s tag is `null`, `undefined`, `false`, *falsy* or an empty list.\n\nView:\n\n```json\n{\n  "repos": []\n}\n```\n\nTemplate:\n\n```html\n{{#repos}}<b>{{name}}</b>{{/repos}}\n{{^repos}}No repos :({{/repos}}\n```\n\nOutput:\n\n```html\nNo repos :(\n```\n\n### Comments\n\nComments begin with a bang and are ignored. The following template:\n\n```html\n<h1>Today{{! ignore me }}.</h1>\n```\n\nWill render as follows:\n\n```html\n<h1>Today.</h1>\n```\n\nComments may contain newlines.\n\n### Partials\n\nPartials begin with a greater than sign, like {{> box}}.\n\nPartials are rendered at runtime (as opposed to compile time), so recursive partials are possible. Just avoid infinite loops.\n\nThey also inherit the calling context. Whereas in ERB you may have this:\n\n```html+erb\n<%= partial :next_more, :start => start, :size => size %>\n```\n\nMustache requires only this:\n\n```html\n{{> next_more}}\n```\n\nWhy? Because the `next_more.mustache` file will inherit the `size` and `start` variables from the calling context. In this way you may want to think of partials as includes, imports, template expansion, nested templates, or subtemplates, even though those aren\'t literally the case here.\n\n\nFor example, this template and partial:\n\n    base.mustache:\n    <h2>Names</h2>\n    {{#names}}\n      {{> user}}\n    {{/names}}\n\n    user.mustache:\n    <strong>{{name}}</strong>\n\nCan be thought of as a single, expanded template:\n\n```html\n<h2>Names</h2>\n{{#names}}\n  <strong>{{name}}</strong>\n{{/names}}\n```\n\nIn mustache.js an object of partials may be passed as the third argument to `Mustache.render`. The object should be keyed by the name of the partial, and its value should be the partial text.\n\n```js\nMustache.render(template, view, {\n  user: userTemplate\n});\n```\n\n### Set Delimiter\n\nSet Delimiter tags start with an equals sign and change the tag delimiters from `{{` and `}}` to custom strings.\n\nConsider the following contrived example:\n\n```\n* {{ default_tags }}\n{{=<% %>=}}\n* <% erb_style_tags %>\n<%={{ }}=%>\n* {{ default_tags_again }}\n```\n\nHere we have a list with three items. The first item uses the default tag style, the second uses ERB style as defined by the Set Delimiter tag, and the third returns to the default style after yet another Set Delimiter declaration.\n\nAccording to [ctemplates](http://google-ctemplate.googlecode.com/svn/trunk/doc/howto.html), this "is useful for languages like TeX, where double-braces may occur in the text and are awkward to use for markup."\n\nCustom delimiters may not contain whitespace or the equals sign.\n\n## Pre-parsing and Caching Templates\n\nBy default, when mustache.js first parses a template it keeps the full parsed token tree in a cache. The next time it sees that same template it skips the parsing step and renders the template much more quickly. If you\'d like, you can do this ahead of time using `mustache.parse`.\n\n```js\nMustache.parse(template);\n\n// Then, sometime later.\nMustache.render(template, view);\n```\n\n## Plugins for JavaScript Libraries\n\nmustache.js may be built specifically for several different client libraries, including the following:\n\n  - [jQuery](http://jquery.com/)\n  - [MooTools](http://mootools.net/)\n  - [Dojo](http://www.dojotoolkit.org/)\n  - [YUI](http://developer.yahoo.com/yui/)\n  - [qooxdoo](http://qooxdoo.org/)\n\nThese may be built using [Rake](http://rake.rubyforge.org/) and one of the following commands:\n\n    $ rake jquery\n    $ rake mootools\n    $ rake dojo\n    $ rake yui3\n    $ rake qooxdoo\n\n## Testing\n\nIn order to run the tests you\'ll need to install [node](http://nodejs.org/).\n\nYou also need to install the sub module containing [Mustache specifications](http://github.com/mustache/spec) in the project root.\n\n    $ git submodule init\n    $ git submodule update\n\nInstall dependencies.\n\n    $ npm install\n\nThen run the tests.\n\n    $ npm test\n\nThe test suite consists of both unit and integration tests. If a template isn\'t rendering correctly for you, you can make a test for it by doing the following:\n\n  1. Create a template file named `mytest.mustache` in the `test/_files`\n     directory. Replace `mytest` with the name of your test.\n  2. Create a corresponding view file named `mytest.js` in the same directory.\n     This file should contain a JavaScript object literal enclosed in\n     parentheses. See any of the other view files for an example.\n  3. Create a file with the expected output in `mytest.txt` in the same\n     directory.\n\nThen, you can run the test with:\n\n    $ TEST=mytest npm run test-render\n\n### Browser tests\n\nBrowser tests are not included in `npm test` as they run for too long, although they are ran automatically on Travis when merged into master. Run browser tests locally in any browser:\n\n    $ npm run test-browser-local\n\nthen point your browser to `http://localhost:8080/__zuul`\n\n### Troubleshooting\n\n#### npm install fails\n\nEnsure to have a recent version of npm installed. While developing this project requires npm with support for `^` version ranges.\n\n    $ npm install -g npm\n\n## Thanks\n\nmustache.js wouldn\'t kick ass if it weren\'t for these fine souls:\n\n  * Chris Wanstrath / defunkt\n  * Alexander Lang / langalex\n  * Sebastian Cohnen / tisba\n  * J Chris Anderson / jchris\n  * Tom Robinson / tlrobinson\n  * Aaron Quint / quirkey\n  * Douglas Crockford\n  * Nikita Vasilyev / NV\n  * Elise Wood / glytch\n  * Damien Mathieu / dmathieu\n  * Jakub Kuźma / qoobaa\n  * Will Leinweber / will\n  * dpree\n  * Jason Smith / jhs\n  * Aaron Gibralter / agibralter\n  * Ross Boucher / boucher\n  * Matt Sanford / mzsanford\n  * Ben Cherry / bcherry\n  * Michael Jackson / mjackson\n  * Phillip Johnsen / phillipj\n  * David da Silva Contín / dasilvacontin\n',
+337 silly resolved     readmeFilename: 'README.md',
+337 silly resolved     bugs: { url: 'https://github.com/janl/mustache.js/issues' },
+337 silly resolved     _id: 'mustache@2.2.1',
+337 silly resolved     dist: { shasum: '370723a101f61f1b1eba59868f443c4b8649db35' },
+337 silly resolved     _from: 'mustache@~2.2.1',
+337 silly resolved     _resolved: 'https://registry.npmjs.org/mustache/-/mustache-2.2.1.tgz' },
+337 silly resolved   { name: 'express',
+337 silly resolved     description: 'Fast, unopinionated, minimalist web framework',
+337 silly resolved     version: '4.13.4',
+337 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+337 silly resolved     contributors:
+337 silly resolved      [ [Object],
+337 silly resolved        [Object],
+337 silly resolved        [Object],
+337 silly resolved        [Object],
+337 silly resolved        [Object],
+337 silly resolved        [Object],
+337 silly resolved        [Object] ],
+337 silly resolved     license: 'MIT',
+337 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/express' },
+337 silly resolved     keywords:
+337 silly resolved      [ 'express',
+337 silly resolved        'framework',
+337 silly resolved        'sinatra',
+337 silly resolved        'web',
+337 silly resolved        'rest',
+337 silly resolved        'restful',
+337 silly resolved        'router',
+337 silly resolved        'app',
+337 silly resolved        'api' ],
+337 silly resolved     dependencies:
+337 silly resolved      { accepts: '~1.2.12',
+337 silly resolved        'array-flatten': '1.1.1',
+337 silly resolved        'content-disposition': '0.5.1',
+337 silly resolved        'content-type': '~1.0.1',
+337 silly resolved        cookie: '0.1.5',
+337 silly resolved        'cookie-signature': '1.0.6',
+337 silly resolved        debug: '~2.2.0',
+337 silly resolved        depd: '~1.1.0',
+337 silly resolved        'escape-html': '~1.0.3',
+337 silly resolved        etag: '~1.7.0',
+337 silly resolved        finalhandler: '0.4.1',
+337 silly resolved        fresh: '0.3.0',
+337 silly resolved        'merge-descriptors': '1.0.1',
+337 silly resolved        methods: '~1.1.2',
+337 silly resolved        'on-finished': '~2.3.0',
+337 silly resolved        parseurl: '~1.3.1',
+337 silly resolved        'path-to-regexp': '0.1.7',
+337 silly resolved        'proxy-addr': '~1.0.10',
+337 silly resolved        qs: '4.0.0',
+337 silly resolved        'range-parser': '~1.0.3',
+337 silly resolved        send: '0.13.1',
+337 silly resolved        'serve-static': '~1.10.2',
+337 silly resolved        'type-is': '~1.6.6',
+337 silly resolved        'utils-merge': '1.0.0',
+337 silly resolved        vary: '~1.0.1' },
+337 silly resolved     devDependencies:
+337 silly resolved      { after: '0.8.1',
+337 silly resolved        ejs: '2.3.4',
+337 silly resolved        istanbul: '0.4.2',
+337 silly resolved        marked: '0.3.5',
+337 silly resolved        mocha: '2.3.4',
+337 silly resolved        should: '7.1.1',
+337 silly resolved        supertest: '1.1.0',
+337 silly resolved        'body-parser': '~1.14.2',
+337 silly resolved        'connect-redis': '~2.4.1',
+337 silly resolved        'cookie-parser': '~1.4.1',
+337 silly resolved        'cookie-session': '~1.2.0',
+337 silly resolved        'express-session': '~1.13.0',
+337 silly resolved        jade: '~1.11.0',
+337 silly resolved        'method-override': '~2.3.5',
+337 silly resolved        morgan: '~1.6.1',
+337 silly resolved        multiparty: '~4.1.2',
+337 silly resolved        vhost: '~3.0.1' },
+337 silly resolved     engines: { node: '>= 0.10.0' },
+337 silly resolved     files: [ 'LICENSE', 'History.md', 'Readme.md', 'index.js', 'lib/' ],
+337 silly resolved     scripts:
+337 silly resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/',
+337 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/',
+337 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/',
+337 silly resolved        'test-tap': 'mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/' },
+337 silly resolved     readme: '[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).\n\n  [![NPM Version][npm-image]][npm-url]\n  [![NPM Downloads][downloads-image]][downloads-url]\n  [![Linux Build][travis-image]][travis-url]\n  [![Windows Build][appveyor-image]][appveyor-url]\n  [![Test Coverage][coveralls-image]][coveralls-url]\n\n```js\nvar express = require(\'express\')\nvar app = express()\n\napp.get(\'/\', function (req, res) {\n  res.send(\'Hello World\')\n})\n\napp.listen(3000)\n```\n\n## Installation\n\n```bash\n$ npm install express\n```\n\n## Features\n\n  * Robust routing\n  * Focus on high performance\n  * Super-high test coverage\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Executable for generating applications quickly\n\n## Docs & Community\n\n  * [#express](https://webchat.freenode.net/?channels=express) on freenode IRC\n  * [Github Organization](https://github.com/expressjs) for Official Middleware & Modules\n  * [Google Group](https://groups.google.com/group/express-js) for discussion\n  * [Gitter](https://gitter.im/expressjs/express) for support and discussion\n  * [Русскоязычная документация](http://jsman.ru/express/)\n\n###Security Issues\n\nIf you discover a security vulnerability in Express, please see [Security Policies and Procedures](Security.md).\n\n## Quick Start\n\n  The quickest way to get started with express is to utilize the executable [`express(1)`](https://github.com/expressjs/generator) to generate an application as shown below:\n\n  Install the executable. The executable\'s major version will match Express\'s:\n\n```bash\n$ npm install -g express-generator@4\n```\n\n  Create the app:\n\n```bash\n$ express /tmp/foo && cd /tmp/foo\n```\n\n  Install dependencies:\n\n```bash\n$ npm install\n```\n\n  Start the server:\n\n```bash\n$ npm start\n```\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers, making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Express does not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](https://github.com/tj/consolidate.js),\n  you can quickly craft your perfect framework.\n\n## Examples\n\n  To view the examples, clone the Express repo and install the dependencies:\n\n```bash\n$ git clone git://github.com/expressjs/express.git --depth 1\n$ cd express\n$ npm install\n```\n\n  Then run whichever example you want:\n\n```bash\n$ node examples/content-negotiation\n```\n\n## Tests\n\n  To run the test suite, first install the dependencies, then run `npm test`:\n\n```bash\n$ npm install\n$ npm test\n```\n\n## People\n\nThe original author of Express is [TJ Holowaychuk](https://github.com/tj) [![TJ\'s Gratipay][gratipay-image-visionmedia]][gratipay-url-visionmedia]\n\nThe current lead maintainer is [Douglas Christopher Wilson](https://github.com/dougwilson) [![Doug\'s Gratipay][gratipay-image-dougwilson]][gratipay-url-dougwilson]\n\n[List of all contributors](https://github.com/expressjs/express/graphs/contributors)\n\n## License\n\n  [MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/express.svg\n[npm-url]: https://npmjs.org/package/express\n[downloads-image]: https://img.shields.io/npm/dm/express.svg\n[downloads-url]: https://npmjs.org/package/express\n[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux\n[travis-url]: https://travis-ci.org/expressjs/express\n[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows\n[appveyor-url]: https://ci.appveyor.com/project/dougwilson/express\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/express/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/express?branch=master\n[gratipay-image-visionmedia]: https://img.shields.io/gratipay/visionmedia.svg\n[gratipay-url-visionmedia]: https://gratipay.com/visionmedia/\n[gratipay-image-dougwilson]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url-dougwilson]: https://gratipay.com/dougwilson/\n',
+337 silly resolved     readmeFilename: 'Readme.md',
+337 silly resolved     bugs: { url: 'https://github.com/expressjs/express/issues' },
+337 silly resolved     _id: 'express@4.13.4',
+337 silly resolved     dist: { shasum: '98894dcde9699b07cd7ac0b30510ab13a729ff13' },
+337 silly resolved     _from: 'express@~4.13.3',
+337 silly resolved     _resolved: 'https://registry.npmjs.org/express/-/express-4.13.4.tgz' } ]
+338 info install grunt-cli@0.1.13 into /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex
+339 info install mustache@2.2.1 into /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex
+340 info install express@4.13.4 into /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex
+341 info installOne grunt-cli@0.1.13
+342 info installOne mustache@2.2.1
+343 warn engine mustache@2.2.1: wanted: {"npm":">=1.4.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+344 info installOne express@4.13.4
+345 info /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache unbuild
+346 info /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/grunt-cli unbuild
+347 info /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/express unbuild
+348 verbose tar unpack /home/ubuntu/.npm/mustache/2.2.1/package.tgz
+349 silly lockFile 947b8fc5--multiplex-node-modules-mustache tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache
+350 verbose lock tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache /home/ubuntu/.npm/947b8fc5--multiplex-node-modules-mustache.lock
+351 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+352 verbose lock tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz /home/ubuntu/.npm/74bb45a2-u-npm-mustache-2-2-1-package-tgz.lock
+353 silly gunzTarPerm modes [ '755', '644' ]
+354 silly gunzTarPerm extractEntry package.json
+355 silly gunzTarPerm extractEntry README.md
+356 silly gunzTarPerm extractEntry LICENSE
+357 silly gunzTarPerm extractEntry mustache.js
+358 silly gunzTarPerm extractEntry mustache.min.js
+359 silly gunzTarPerm extractEntry bin/mustache
+360 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.post
+361 silly gunzTarPerm extractEntry wrappers/dojo/mustache.js.pre
+362 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.post
+363 silly gunzTarPerm extractEntry wrappers/jquery/mustache.js.pre
+364 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.post
+365 silly gunzTarPerm extractEntry wrappers/mootools/mustache.js.pre
+366 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.post
+367 silly gunzTarPerm extractEntry wrappers/qooxdoo/mustache.js.pre
+368 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.post
+369 silly gunzTarPerm extractEntry wrappers/yui3/mustache.js.pre
+370 verbose tar unpack /home/ubuntu/.npm/express/4.13.4/package.tgz
+371 silly lockFile a937df0c-n-multiplex-node-modules-express tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/express
+372 verbose lock tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/express /home/ubuntu/.npm/a937df0c-n-multiplex-node-modules-express.lock
+373 silly lockFile 85d77a4a-u-npm-express-4-13-4-package-tgz tar:///home/ubuntu/.npm/express/4.13.4/package.tgz
+374 verbose lock tar:///home/ubuntu/.npm/express/4.13.4/package.tgz /home/ubuntu/.npm/85d77a4a-u-npm-express-4-13-4-package-tgz.lock
+375 silly gunzTarPerm modes [ '755', '644' ]
+376 silly gunzTarPerm extractEntry package.json
+377 silly gunzTarPerm extractEntry LICENSE
+378 silly gunzTarPerm extractEntry index.js
+379 silly gunzTarPerm extractEntry History.md
+380 silly gunzTarPerm extractEntry Readme.md
+381 silly gunzTarPerm extractEntry lib/application.js
+382 silly gunzTarPerm extractEntry lib/express.js
+383 silly gunzTarPerm extractEntry lib/request.js
+384 silly gunzTarPerm extractEntry lib/response.js
+385 silly gunzTarPerm extractEntry lib/utils.js
+386 silly gunzTarPerm extractEntry lib/view.js
+387 silly gunzTarPerm extractEntry lib/middleware/init.js
+388 silly gunzTarPerm extractEntry lib/middleware/query.js
+389 silly gunzTarPerm extractEntry lib/router/index.js
+390 silly gunzTarPerm extractEntry lib/router/layer.js
+391 silly gunzTarPerm extractEntry lib/router/route.js
+392 verbose tar unpack /home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+393 silly lockFile a2bee16e-multiplex-node-modules-grunt-cli tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/grunt-cli
+394 verbose lock tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/grunt-cli /home/ubuntu/.npm/a2bee16e-multiplex-node-modules-grunt-cli.lock
+395 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+396 verbose lock tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz /home/ubuntu/.npm/8bac1b6a-npm-grunt-cli-0-1-13-package-tgz.lock
+397 silly gunzTarPerm modes [ '755', '644' ]
+398 silly gunzTarPerm extractEntry package.json
+399 silly gunzTarPerm extractEntry .npmignore
+400 silly gunzTarPerm extractEntry README.md
+401 silly gunzTarPerm extractEntry Gruntfile.js
+402 silly gunzTarPerm extractEntry .travis.yml
+403 silly gunzTarPerm extractEntry AUTHORS
+404 silly gunzTarPerm extractEntry LICENSE-MIT
+405 silly gunzTarPerm extractEntry bin/grunt
+406 silly gunzTarPerm extractEntry completion/bash
+407 silly gunzTarPerm extractEntry completion/zsh
+408 silly gunzTarPerm extractEntry lib/cli.js
+409 silly gunzTarPerm extractEntry lib/completion.js
+410 silly gunzTarPerm extractEntry lib/info.js
+411 silly lockFile a2bee16e-multiplex-node-modules-grunt-cli tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/grunt-cli
+412 silly lockFile a2bee16e-multiplex-node-modules-grunt-cli tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/grunt-cli
+413 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+414 silly lockFile 8bac1b6a-npm-grunt-cli-0-1-13-package-tgz tar:///home/ubuntu/.npm/grunt-cli/0.1.13/package.tgz
+415 info preinstall grunt-cli@0.1.13
+416 silly lockFile 947b8fc5--multiplex-node-modules-mustache tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache
+417 silly lockFile 947b8fc5--multiplex-node-modules-mustache tar:///media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache
+418 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+419 silly lockFile 74bb45a2-u-npm-mustache-2-2-1-package-tgz tar:///home/ubuntu/.npm/mustache/2.2.1/package.tgz
+420 verbose readDependencies using package.json deps
+421 verbose readDependencies using package.json deps
+422 info preinstall mustache@2.2.1
+423 verbose cache add [ 'nopt@~1.0.10', null ]
+424 verbose cache add name=undefined spec="nopt@~1.0.10" args=["nopt@~1.0.10",null]
+425 verbose parsed url { protocol: null,
+425 verbose parsed url   slashes: null,
+425 verbose parsed url   auth: null,
+425 verbose parsed url   host: null,
+425 verbose parsed url   port: null,
+425 verbose parsed url   hostname: null,
+425 verbose parsed url   hash: null,
+425 verbose parsed url   search: null,
+425 verbose parsed url   query: null,
+425 verbose parsed url   pathname: 'nopt@~1.0.10',
+425 verbose parsed url   path: 'nopt@~1.0.10',
+425 verbose parsed url   href: 'nopt@~1.0.10' }
+426 verbose cache add name="nopt" spec="~1.0.10" args=["nopt","~1.0.10"]
+427 verbose parsed url { protocol: null,
+427 verbose parsed url   slashes: null,
+427 verbose parsed url   auth: null,
+427 verbose parsed url   host: null,
+427 verbose parsed url   port: null,
+427 verbose parsed url   hostname: null,
+427 verbose parsed url   hash: null,
+427 verbose parsed url   search: null,
+427 verbose parsed url   query: null,
+427 verbose parsed url   pathname: '~1.0.10',
+427 verbose parsed url   path: '~1.0.10',
+427 verbose parsed url   href: '~1.0.10' }
+428 verbose addNamed [ 'nopt', '~1.0.10' ]
+429 verbose addNamed [ null, '>=1.0.10-0 <1.1.0-0' ]
+430 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+431 verbose lock nopt@~1.0.10 /home/ubuntu/.npm/79f78dba-nopt-1-0-10.lock
+432 silly addNameRange { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: false }
+433 verbose cache add [ 'findup-sync@~0.1.0', null ]
+434 verbose cache add name=undefined spec="findup-sync@~0.1.0" args=["findup-sync@~0.1.0",null]
+435 verbose parsed url { protocol: null,
+435 verbose parsed url   slashes: null,
+435 verbose parsed url   auth: null,
+435 verbose parsed url   host: null,
+435 verbose parsed url   port: null,
+435 verbose parsed url   hostname: null,
+435 verbose parsed url   hash: null,
+435 verbose parsed url   search: null,
+435 verbose parsed url   query: null,
+435 verbose parsed url   pathname: 'findup-sync@~0.1.0',
+435 verbose parsed url   path: 'findup-sync@~0.1.0',
+435 verbose parsed url   href: 'findup-sync@~0.1.0' }
+436 verbose cache add name="findup-sync" spec="~0.1.0" args=["findup-sync","~0.1.0"]
+437 verbose parsed url { protocol: null,
+437 verbose parsed url   slashes: null,
+437 verbose parsed url   auth: null,
+437 verbose parsed url   host: null,
+437 verbose parsed url   port: null,
+437 verbose parsed url   hostname: null,
+437 verbose parsed url   hash: null,
+437 verbose parsed url   search: null,
+437 verbose parsed url   query: null,
+437 verbose parsed url   pathname: '~0.1.0',
+437 verbose parsed url   path: '~0.1.0',
+437 verbose parsed url   href: '~0.1.0' }
+438 verbose addNamed [ 'findup-sync', '~0.1.0' ]
+439 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+440 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+441 verbose lock findup-sync@~0.1.0 /home/ubuntu/.npm/625605b9-findup-sync-0-1-0.lock
+442 verbose url raw nopt
+443 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+444 verbose url resolved https://registry.npmjs.org/nopt
+445 info trying registry request attempt 1 at 20:53:14
+446 http GET https://registry.npmjs.org/nopt
+447 verbose cache add [ 'resolve@~0.3.1', null ]
+448 verbose cache add name=undefined spec="resolve@~0.3.1" args=["resolve@~0.3.1",null]
+449 verbose parsed url { protocol: null,
+449 verbose parsed url   slashes: null,
+449 verbose parsed url   auth: null,
+449 verbose parsed url   host: null,
+449 verbose parsed url   port: null,
+449 verbose parsed url   hostname: null,
+449 verbose parsed url   hash: null,
+449 verbose parsed url   search: null,
+449 verbose parsed url   query: null,
+449 verbose parsed url   pathname: 'resolve@~0.3.1',
+449 verbose parsed url   path: 'resolve@~0.3.1',
+449 verbose parsed url   href: 'resolve@~0.3.1' }
+450 verbose cache add name="resolve" spec="~0.3.1" args=["resolve","~0.3.1"]
+451 verbose parsed url { protocol: null,
+451 verbose parsed url   slashes: null,
+451 verbose parsed url   auth: null,
+451 verbose parsed url   host: null,
+451 verbose parsed url   port: null,
+451 verbose parsed url   hostname: null,
+451 verbose parsed url   hash: null,
+451 verbose parsed url   search: null,
+451 verbose parsed url   query: null,
+451 verbose parsed url   pathname: '~0.3.1',
+451 verbose parsed url   path: '~0.3.1',
+451 verbose parsed url   href: '~0.3.1' }
+452 verbose addNamed [ 'resolve', '~0.3.1' ]
+453 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+454 silly lockFile 7958d065-resolve-0-3-1 resolve@~0.3.1
+455 verbose lock resolve@~0.3.1 /home/ubuntu/.npm/7958d065-resolve-0-3-1.lock
+456 silly addNameRange { name: 'findup-sync',
+456 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+456 silly addNameRange   hasData: false }
+457 verbose url raw findup-sync
+458 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+459 verbose url resolved https://registry.npmjs.org/findup-sync
+460 info trying registry request attempt 1 at 20:53:14
+461 http GET https://registry.npmjs.org/findup-sync
+462 silly addNameRange { name: 'resolve', range: '>=0.3.1-0 <0.4.0-0', hasData: false }
+463 verbose readDependencies using package.json deps
+464 verbose url raw resolve
+465 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+466 verbose url resolved https://registry.npmjs.org/resolve
+467 info trying registry request attempt 1 at 20:53:14
+468 http GET https://registry.npmjs.org/resolve
+469 verbose readDependencies using package.json deps
+470 silly resolved []
+471 verbose about to build /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache
+472 info build /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache
+473 verbose linkStuff [ false,
+473 verbose linkStuff   false,
+473 verbose linkStuff   false,
+473 verbose linkStuff   '/media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules' ]
+474 info linkStuff mustache@2.2.1
+475 verbose linkBins mustache@2.2.1
+476 verbose link bins [ { mustache: './bin/mustache' },
+476 verbose link bins   '/media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/.bin',
+476 verbose link bins   false ]
+477 verbose linkMans mustache@2.2.1
+478 verbose rebuildBundles mustache@2.2.1
+479 info /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/mustache unbuild
+480 info preuninstall mustache@2.2.1
+481 info uninstall mustache@2.2.1
+482 verbose true,/media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules,/media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules unbuild mustache@2.2.1
+483 verbose /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex/node_modules/.bin,[object Object] binRoot
+484 info postuninstall mustache@2.2.1
+485 error Error: EROFS, symlink '../mustache/bin/mustache'
+486 error If you need help, you may report this log at:
+486 error     <http://github.com/isaacs/npm/issues>
+486 error or email it to:
+486 error     <npm-@googlegroups.com>
+487 error System Linux 3.19.0-25-generic
+488 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+489 error cwd /media/sf_data/work/katiereading/reveal.js-master/plugin/multiplex
+490 error node -v v0.10.25
+491 error npm -v 1.3.10
+492 error path ../mustache/bin/mustache
+493 error code EROFS
+494 error errno 56
+495 verbose exit [ 56, true ]
