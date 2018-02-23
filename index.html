@@ -36,21 +36,24 @@
 
         <script>
 
-            var wordList = _.shuffle(['pig', 'dog', 'cat', 'horse']);
-            $.each(wordList, function( index, value ) {
+            $.get( "data.json", function( data ) {
+                var wordList = _.shuffle(data);
+                
+                $.each(wordList, function( index, value ) {
                 $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
                                       + '</h2></section>' );
-            });
+                });
             
-            // Full list of configuration options available here:
-            // https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                center: true,
-                // rtl: true,
+                // Full list of configuration options available here:
+                // https://github.com/hakimel/reveal.js#configuration
+                Reveal.initialize({
+                    center: true,
+                    // rtl: true,
 
-                transition: 'linear',
-                // transitionSpeed: 'slow',
-                // backgroundTransition: 'slide'
+                    transition: 'linear',
+                    // transitionSpeed: 'slow',
+                    // backgroundTransition: 'slide'
+                });
             });
 
         </script>
