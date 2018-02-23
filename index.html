@@ -30,12 +30,13 @@
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js</script>
         <script src=".reveal.js-master/lib/js/head.min.js"></script>
         <script src="reveal.js-master/js/reveal.js"></script>
 
         <script>
 
-            var wordList = ['pig', 'dog', 'cat', 'horse'];
+            var wordList = _.shuffle(['pig', 'dog', 'cat', 'horse']);
             $.each(wordList, function( index, value ) {
                 $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
                                       + '</h2></section>' );
