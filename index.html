@@ -24,26 +24,23 @@
     <body>
 
         <div class="reveal">
-
             <div class="slides">
-
-<!--            {% for word in words %}-->
-                <section data-background="#fff" data-transition="convex"><h2>dog</h2></section>
-                <section data-background="#fff" data-transition="convex"><h2>pig</h2></section>
-                <section data-background="#fff" data-transition="convex"><h2>cat</h2></section>
-                <section data-background="#fff" data-transition="convex"><h2>horse</h2></section>
-<!--            {% endfor %}-->
-
+                <!-- {% for word in words %}{% endfor %} -->
             </div>
-            
-            
         </div>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src=".reveal.js-master/lib/js/head.min.js"></script>
         <script src="reveal.js-master/js/reveal.js"></script>
 
         <script>
 
+            var wordList = ['pig', 'dog', 'cat', 'horse'];
+            $.each(wordList, function( index, value ) {
+                $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
+                                      + '</h2></section>' );
+            });
+            
             // Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
