@@ -42,6 +42,8 @@
             var $dropdown = $("#id_selector");
 
             function updateSlides(wordList) {
+                $(".reveal").empty();
+                
                 var shuffleList = _.shuffle(wordList);
                 console.log(shuffleList);
                 
