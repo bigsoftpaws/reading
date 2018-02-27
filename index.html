@@ -23,7 +23,9 @@
 
     <body>
 
-        <div id="menu"></div>
+        <div id="menu">
+            <select id="id_selector"></select>
+        </div>
         
         <div class="reveal">
             <div class="slides">
@@ -37,15 +39,31 @@
         <script src="reveal.js-master/js/reveal.js"></script>
 
         <script>
+            var $dropdown = $("#id_selector");
+
+            function updateSlides(wordList) {
+                var shuffleList = _.shuffle(wordList);
+                
+                $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"></section>' );
+
+                $.each(shuffleList, function( index, value ) {
+                    $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
+                                         + '</h2></section>' );
+                });
+
+                $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"></section>' );
+
+            };
 
             $.get( "data.json", function( data ) {
-                var wordList = _.shuffle(data["listA"]);
+
+                $.each(listName, function( index, value) {
+                    $dropdown.append($("<option />").val(data).text(data[listName]));
+                );
                 
-                $.each(wordList, function( index, value ) {
-                $( ".slides" ).append( '<section data-background="#fff" data-transition="convex"><h2>' + value
-                                      + '</h2></section>' );
-                });
-            
+                // Start with "listA"
+                updateSlides(data["listA"]);
+
                 // Full list of configuration options available here:
                 // https://github.com/hakimel/reveal.js#configuration
                 Reveal.initialize({
