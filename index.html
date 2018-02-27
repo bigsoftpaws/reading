@@ -24,7 +24,7 @@
     <body>
 
         <div id="menu">
-            <select id="id_selector"></select>
+            <select id="id_selector" style="padding: 3px"></select>
         </div>
         
         <div class="reveal">
@@ -60,9 +60,12 @@
                 $.each(data, function(key, value) {
                     $dropdown.append($("<option />").val(key).text(key));
                 });
-                                
-                // Start with "listA"
-                updateSlides(data["listA"]);
+
+                $dropdown.change( function (){
+                    $( "select option:selected" ).each(function() {
+                        updateSlides(data[this]);
+                    });
+                });
 
                 // Full list of configuration options available here:
                 // https://github.com/hakimel/reveal.js#configuration
