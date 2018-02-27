@@ -57,9 +57,9 @@
 
             $.get( "data.json", function( data ) {
 
-                $.each(listName, function( index, value) {
-                    $dropdown.append($("<option />").val(data).text(data[listName]));
-                });
+                for (var key in data) {
+                    $dropdown.append($("<option />").val(data).text(data));
+                }
                 
                 // Start with "listA"
                 updateSlides(data["listA"]);
