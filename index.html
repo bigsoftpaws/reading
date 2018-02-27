@@ -77,7 +77,7 @@
 
                 $dropdown.change( function (){
                     $( "select option:selected" ).each(function() {
-                        updateSlides(data[this]);
+                        updateSlides(data[$(this).text()]);
                     });
                 });
 
