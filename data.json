@@ -1,5 +1,6 @@
 {
-    "listB": ["pig", "dog", "cat", "horse"],
-    "listA": ["Katie", "Rose", "Sophie", "Daddy", "Mummy"],
-    "listC": ["Roland", "cat", "dog", "duck", "ladybird"]
+    "default": [],
+    "Animals": ["pig", "dog", "cat", "horse"],
+    "Family": ["Katie", "Rose", "Sophie", "Daddy", "Mummy"],
+    "MoreAnimals": ["Roland", "cat", "dog", "duck", "ladybird"]
 }
