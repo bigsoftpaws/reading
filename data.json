@@ -2,6 +2,6 @@
     "default": [],
     "Animals": ["pig", "dog", "cat", "horse"],
     "Family": ["Katie", "Rose", "Sophie", "Daddy", "Mummy"],
-    "Family01": ["Katie", "Roland", "Sophie", "ladybird", "cat"],
+    "Family01": ["Katie", "Roland", "dog", "ladybird", "cat"],
     "MoreAnimals": ["Roland", "cat", "dog", "duck", "ladybird"]
 }
